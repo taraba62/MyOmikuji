@@ -1,0 +1,30 @@
+body{
+	background: #efefef;
+}
+
+#btn{
+	margin: 30px auto 0;
+	background-color: #2792af;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 200px;
+	font-weight: bold;
+	font-size: 42px;
+	color: #fff;
+	cursor: pointer;
+	opacity: 0.9;
+	box-shadow: 0 10px 0 #227f99;
+	border: 3px solid #227f99;
+	user-select: none;
+}
+
+#btn:hover{
+	opacity: 1.0;
+}
+
+#btn.pushed{
+	margin-top: 36px;
+	box-shadow: 0 4px 0 #227f99;
+}
